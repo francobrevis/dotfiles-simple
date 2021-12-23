@@ -1,0 +1,24 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.0
+    background_type = transparent
+    cursor_blink = False
+    cursor_color = "#aaaaaa"
+    font = roboto mono 12
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scroll_on_keystroke = False
+    palette = "#1d1e20:#f16666:#f5d494:#f0c674:#a98747:#f1a166:#c5c8c6:#c5c8c6:#666666:#f16666:#f5d494:#f0c674:#a98747:#f1a166:#c5c8c6:#eaeaea"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]

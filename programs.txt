@@ -1,0 +1,8 @@
+bspwm
+sxhkd
+neofetch
+polybar-git
+terminator
+picom
+tmux
+ranger
